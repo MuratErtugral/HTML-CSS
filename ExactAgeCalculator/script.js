@@ -63,6 +63,7 @@ birthdayInput.addEventListener("change", (event) => {
         return;
     }
     document.body.style.backgroundImage = "url('https://p4.wallpaperbetter.com/wallpaper/671/84/968/awesome-birthday-hd-images-happy-birthday-wallpaper-preview.jpg')";
+    document.body.style.backgroundRepeat = "noRepeat"
 
     setInterval(updateCountdown, 1000);
 

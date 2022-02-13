@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  /* background-image: url("https://img4.goodfon.com/wallpaper/nbig/4/fe/happy-birthday-decoration-celebration-colorful-krem-cupcak-2.jpg") ; */
 }
 
 body {
@@ -68,14 +69,19 @@ h1 {
   margin: 0 0 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
 
+  
   .time {
     margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
   }
+    
+  
 
   .time h2 {
     font-size: 12px;
